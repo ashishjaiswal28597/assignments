@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500PX;
+    width: 500px;
+    background-color: #383232;
+}
+.square{
+    width: 300px;
+    height: 300px;
+    border: 20px solid;
+   border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255);
+
+
+    transform: rotate(45deg);
+}
+.cont{
+    transform: rotate(-45deg);
+    margin-top: 90px;
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+    
+}
